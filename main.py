@@ -8,3 +8,4 @@ llm = ChatGroq(model="llama-3.1-8b-instant")
 res = llm.invoke("hello")
 
 print(res.content)
+print(res.id)
